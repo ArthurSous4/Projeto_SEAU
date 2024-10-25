@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.4</version>
+		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.uninassau</groupId>
 	<artifactId>ProjetoSEAU</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ProjetoSEAU</name>
-	<description>Elaboração do aplicativo Flor da Cidade</description>
+	<description>Parte Back-end do projeto Flor da Cidade</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -39,6 +39,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
 
